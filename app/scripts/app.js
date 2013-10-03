@@ -21,11 +21,11 @@ angular.module('serviceDemoApp', [])
       })
       .when('/signup/confirm', {
         templateUrl: 'views/signup-confirm.html',
-        controller: 'SignUpUrlCtrl'
+        controller: 'SignUpConfirmCtrl'
       })
       .when('/awesome', {
         templateUrl: 'views/awesome.html',
-        controller: 'SignUpUrlCtrl'
+        controller: 'AwesomeCtrl'
       })
       .otherwise({
         redirectTo: '/'
