@@ -1,11 +1,11 @@
 <h1>Awesome!</h1>
 <p>Ok, here's what you told us:</p>
 <dl>
-	<dt>First Name:</dt><dd>{{firstName}}</dd>
-	<dt>Last Name:</dt><dd>{{lastName}}</dd>
-	<dt>Email Address:</dt><dd>{{emailAddress}}</dd>
-	<dt>Cutsom URL:</dt><dd>{{url}}</dd>
-	<dt>Connect Me To:</dt><dd>{{connect}}</dd>
+	<dt>First Name:</dt><dd>{{user.firstName}}</dd>
+	<dt>Last Name:</dt><dd>{{user.lastName}}</dd>
+	<dt>Email Address:</dt><dd>{{user.emailAddress}}</dd>
+	<dt>Custom URL:</dt><dd>{{user.url}}</dd>
+	<dt>Connect Me To:</dt><dd>{{user.connect}}</dd>
 </dl>
 
 <form role="form" ng-submit="submit()" name="signup-form">
